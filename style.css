@@ -1,0 +1,156 @@
+/* style keseluruhan */
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    color: gold;
+    
+}
+.btn.btn-outline-dark{
+    color:black;
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:black;
+}
+
+*,html,body {
+    scroll-behavior: smooth;    
+}
+
+/* EDIT NAVIGATOR */
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+   color: black;
+}
+
+.logo{
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+
+.menu{
+    float: left;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display:flex;
+    line-height: 80px;
+
+
+/* NAVIGATOR UL LI */
+position: sticky;
+position: -webkit-sticky;
+top: 0;
+background: black;
+z-index: 1;
+border-bottom: 1px;
+padding-bottom: 30px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden  ;
+    float: right;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: beige;
+    transition: 0.8s;
+}
+
+a.tbl-biru {
+    background: #3f72af;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #AF0171;
+    text-decoration: none;
+}
+
+/* WELCOME DAN BACKGROUND */
+
+.welcome{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vh;
+    height: 100vh;
+    background-image: url(foto.3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: gold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* WELCOME DAN BACKGROUND */
+.login {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vh;
+    height: 100vh;
+    background-image: url('foto.2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: gold;
+}
+
+.login:before{
+    content: '';
+    position: absolute;
+    bottom: -120px;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to top,black,transparent);
+    right: 0px;
+}
+
+.login::after{
+    content: '';
+    position: absolute;
+    bottom: -820px;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to top,black,transparent);
+    right: 0px;
+}
